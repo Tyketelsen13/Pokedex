@@ -1,0 +1,45 @@
+.Pokecard {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: black;
+    text-align: center;
+}
+
+.Pokecard img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#pokeName {
+    color: yellow;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#pokeName:hover {
+    color: red;
+    transition: color 0.5s ease-in-out;
+}
+
+#pokeType {
+    color: teal;
+    font-size: 18px;
+}
+
+#pokeType:hover {
+    color: blue;
+    transition: color 0.5s ease-in-out;
+}
+
+#pokexp {
+    color: lightcoral;
+    font-size: 18px;
+}
+
+#pokexp:hover {
+    color: darkred;
+    transition: color 0.5s ease-in-out;
+}
+    

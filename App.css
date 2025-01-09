@@ -1,0 +1,11 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: yellow;
+}
+h1:hover {
+  color: red;
+  transition: color 0.5s ease-in-out;
+}
